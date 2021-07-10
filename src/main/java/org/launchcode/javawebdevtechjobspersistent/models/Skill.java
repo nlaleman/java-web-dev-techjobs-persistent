@@ -5,8 +5,19 @@ import javax.persistence.Entity;
 @Entity
 public class Skill extends AbstractEntity {
 
+    private String skillDescription;
 
-    private String longSkill
+    public Skill(String skillDescription) {
+        this.skillDescription = skillDescription;
+    }
+
+    public String getSkillDescription() {
+        return skillDescription;
+    }
+
+    public void setSkillDescription(String skillDescription) {
+        this.skillDescription = skillDescription;
+    }
 
     public Skill() {}
 

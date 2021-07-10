@@ -10,6 +10,10 @@ public class Employer extends AbstractEntity {
     @Size(max = 255, message = "Cannot exceed 255 characters")
     private String location;
 
+    public Employer(String location) {
+        this.location = location;
+    }
+
     public String getLocation() {
         return location;
     }
