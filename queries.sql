@@ -11,7 +11,7 @@ SELECT * FROM techjobs.employer WHERE location LIKE 'saint louis'
 
 ## Part 3: Test it with SQL
 
-TRUNCATE techjobs.job
+DROP techjobs.job
 
 ## Part 4: Test it with SQL
 
